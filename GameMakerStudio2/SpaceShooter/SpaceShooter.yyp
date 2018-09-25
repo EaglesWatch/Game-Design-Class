@@ -221,6 +221,14 @@
                 "resourcePath": "sprites\\spr_EnergyBullet\\spr_EnergyBullet.yy",
                 "resourceType": "GMSprite"
             }
+        },
+        {
+            "Key": "f4d3cf6b-45ba-427b-91fc-3c0c132fa1b7",
+            "Value": {
+                "id": "ce0b5e61-69ee-404c-a45a-cb024c3a25af",
+                "resourcePath": "objects\\obj_Asteroids\\obj_Asteroids.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "script_order": [
