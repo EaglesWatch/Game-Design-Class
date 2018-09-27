@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "9da1410e-f44c-4a73-b075-e76f5cbcfbc4",
+            "Value": {
+                "id": "7125f53e-70e9-45b4-9c07-b80d2c582998",
+                "resourcePath": "objects\\obj_counter\\obj_counter.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9f0eb19d-0a1f-4733-9ee6-c736e5d4f65f",
             "Value": {
                 "id": "d4b715aa-3b15-4557-90cd-f74fcf4af639",
