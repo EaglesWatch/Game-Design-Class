@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "02a66dc4-36e0-429c-8c53-b6739052d77a",
+            "Value": {
+                "id": "79a46ab0-cb83-4c1d-849a-0ae655ff2b93",
+                "resourcePath": "sprites\\spr_SpinMove\\spr_SpinMove.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "129eb4ab-7da5-48d7-8008-289f756bd80d",
             "Value": {
                 "id": "a113bd41-7838-418d-9e1a-cd3ef8db6aee",
@@ -52,6 +60,14 @@
                 "id": "b5103937-bdbf-4d84-8a22-fe35479161e3",
                 "resourcePath": "views\\29e12976-9648-4f37-b183-27c8a7ffe6e5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2f663f79-cbf6-477e-8c90-47bd43cbecf2",
+            "Value": {
+                "id": "958cd6a7-e574-4666-880a-430c76de4107",
+                "resourcePath": "objects\\obj_SpinMove\\obj_SpinMove.yy",
+                "resourceType": "GMObject"
             }
         },
         {
