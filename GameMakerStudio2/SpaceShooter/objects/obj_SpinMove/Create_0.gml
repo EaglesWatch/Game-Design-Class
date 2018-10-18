@@ -1,6 +1,7 @@
-/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 47848B44
-/// @DnDArgument : "steps" "180"
-/// @DnDArgument : "alarm" "2"
-alarm_set(2, 180);
+/// @DnDHash : 780645FB
+/// @DnDArgument : "code" "image_angle = irandom(360);$(13_10)x = random(room_width);$(13_10)y = random(room_width);"
+image_angle = irandom(360);
+x = random(room_width);
+y = random(room_width);
