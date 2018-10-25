@@ -12,11 +12,11 @@ with(other) instance_destroy();
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 62154CCE
-/// @DnDArgument : "code" "global.points = global.points +50$(13_10)if instance_number(obj_Asteroids)>9$(13_10)then{$(13_10)instance_create_layer(irandom(room_width),irandom(room_height), "Instances", obj_asteroid_mini);$(13_10)instance_create_layer(x,y, "Instances", obj_50_points);$(13_10)}$(13_10)else{$(13_10)exit$(13_10)}$(13_10)"
+/// @DnDArgument : "code" "global.points = global.points +50$(13_10)if instance_number(obj_Asteroids)>9$(13_10)then{$(13_10)instance_create_layer(x,y, "Instances", obj_asteroid_mini);$(13_10)instance_create_layer(x,y, "Instances", obj_50_points);$(13_10)}$(13_10)else{$(13_10)exit$(13_10)}$(13_10)"
 global.points = global.points +50
 if instance_number(obj_Asteroids)>9
 then{
-instance_create_layer(irandom(room_width),irandom(room_height), "Instances", obj_asteroid_mini);
+instance_create_layer(x,y, "Instances", obj_asteroid_mini);
 instance_create_layer(x,y, "Instances", obj_50_points);
 }
 else{
